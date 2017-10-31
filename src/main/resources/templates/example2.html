@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- You can add fonts to your website to make it more attractive. Use google fonts by referencing the css on the
+                     Google Fonts APIs CDN-->
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+
+    <!-- This is embedded stylesheet. It contains css that alters the default styles in the navbar-inverse class, and also
+        addsclasses such as shrikhand and standardimage      -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <title>Bootstrap Example</title>
+</head>
+<body>
+
+<!--  The navbar can be default(grey), inverse (black) or transparent. you can change the default colours by
+      simply adding the style to a custom style sheet and assigning the colours you would like to the appropriate
+        css classes. see style.css,the embedded stylesheet referenced in the head of this document above. For more on the navbar,
+                  see https://www.w3schools.com/bootstrap/bootstrap_navbar.asp
+                      and
+                      https://getbootstrap.com/docs/3.3/components/#navbar-->
+
+         <nav class="navbar navbar-inverse">
+
+                 <div class="container-fluid">
+
+                     <div class="navbar-header">
+                         <a class="navbar-brand">Application Name</a>
+
+                     </div>
+                       <ul class="nav navbar-nav">
+                           <li><a>Link Two</a></li>
+                           <li><a>Link One</a></li>
+                           <li><a>Link Three</a></li>
+                       </ul>
+
+                 </div>
+
+
+         </nav>
+
+    <div class="container">
+
+        <div class="col-md-12">
+
+            <h1 class="shrikhand">Crabby Page</h1>
+            <div class="col-md-12">
+                <h3 class="shrikhand">Shrikhand h2</h3>
+
+            </div>
+
+            <div class="col-md-8">
+
+            </div>
+        </div>
+
+
+        <div class="row"><!--Use this class to force items on the same row.Remember it's a 12 column grid!          -->
+
+                 <div class="col-md-12">
+                     <!-- when designing your page ,always let your components 'breathe'. And as much space as possible
+                          around them without leaving gaping holes. Lines are nice to define sections sometimes ,but don't overdo
+                              it with linitis!!                         -->
+
+                     <img class="standardimage img-thumbnail" src="https://static.pexels.com/photos/39803/pexels-photo-39803.jpeg"
+                          align="left" alt="Apple"/>
+
+                     <p>
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                         Tristique senectus et netus et malesuada. Morbi tristique senectus et netus et malesuada.
+                         Vitae tortor condimentum lacinia quis vel. Vivamus at augue eget arcu dictum varius duis.
+                         Quis commodo odio aenean sed adipiscing diam donec adipiscing tristique. Malesuada bibendum arcu vitae elementum.
+                         Tincidunt praesent semper feugiat nibh. Lorem dolor sed viverra ipsum. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis.
+                         Urna id volutpat lacus laoreet non curabitur. Eu volutpat odio facilisis mauris sit amet massa vitae.
+
+                         Commodo odio aenean sed adipiscing. Est pellentesque elit ullamcorper dignissim cras. Fames ac turpis egestas sed tempus urna.
+                         <a href="https://loremipsumgenerator.com">this lorem ipsum text generator</a>.
+
+                     </p>
+
+                     <p>
+                         Pharetra sit amet aliquam id diam. Egestas maecenas pharetra convallis posuere morbi leo urna molestie.
+                         Vel fringilla est ullamcorper eget nulla facilisi etiam. Vel pharetra vel turpis nunc eget lorem dolor sed.
+                         Eu augue ut lectus arcu bibendum at varius. Neque aliquam vestibulum morbi blandit cursus risus at.
+                         Sodales neque sodales ut etiam sit amet. Sit amet nulla facilisi morbi tempus. Sed cras ornare arcu dui vivamus.
+                         Ipsum faucibus vitae aliquet nec ullamcorper.
+                         Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit amet.
+
+                     </p>
+
+                 </div>
+            <div class="col-md-6"><!--  I usually use col-md as it fits well on most devices. Use col-md as it fits well on
+              most devices. Use what is appropriate for the device you are working on! See more details here:
+               https://getbootstrap.com/docs/3.3/css/-->
+
+
+                <blockquote>This is a quotation about lorem ipsum...<cite>Wikipedia</cite></blockquote>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Tristique senectus et netus et malesuada. Morbi tristique senectus et netus et malesuada.
+                    Vitae tortor condimentum lacinia quis vel. Vivamus at augue eget arcu dictum varius duis.
+                    Quis commodo odio aenean sed adipiscing diam donec adipiscing tristique. Malesuada bibendum arcu vitae elementum.
+                    Tincidunt praesent semper feugiat nibh. Lorem dolor sed viverra ipsum. Facilisis mauris sit amet massa vitae tortor
+                    condimentum lacinia quis.
+                    Urna id volutpat lacus laoreet non curabitur. Eu volutpat odio facilisis mauris sit amet massa vitae.
+
+                    Commodo odio aenean sed adipiscing. Est pellentesque elit ullamcorper dignissim cras. Fames ac turpis egestas sed tempus urna.
+                    <a href="https://loremipsumgenerator.com">this lorem ipsum text generator</a>.
+
+
+
+                </p>
+
+                <p>
+
+                    Pharetra sit amet aliquam id diam. Egestas maecenas pharetra convallis posuere morbi leo urna molestie.
+                    Vel fringilla est ullamcorper eget nulla facilisi etiam. Vel pharetra vel turpis nunc eget lorem dolor sed.
+                    Eu augue ut lectus arcu bibendum at varius. Neque aliquam vestibulum morbi blandit cursus risus at.
+                    Sodales neque sodales ut etiam sit amet. Sit amet nulla facilisi morbi tempus. Sed cras ornare arcu dui vivamus.
+                    Ipsum faucibus vitae aliquet nec ullamcorper.
+                    Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit amet.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

@@ -5,6 +5,20 @@
     width: 400px;
 
 }
+.imgmenu{
+
+    width:70px;
+    height:70px;
+
+}
+.paragraphprice
+{
+
+    text-align: right;
+}
+.paragraphdescription{
+    text-align: center;
+}
 
 .body{
     background-image:url("https://www.bbcgoodfood.com/sites/default/files/guide/guide-image/2014/04/balanced-diet-vegetarians-guide-image-700-350.jpg");
